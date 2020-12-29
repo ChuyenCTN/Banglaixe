@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/searchview"
+        android:title="Search"
+        android:icon="@drawable/ic_glass_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView">
+    </item>
+
+</menu>

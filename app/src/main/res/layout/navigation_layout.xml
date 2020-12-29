@@ -1,0 +1,263 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="@string/txt_chuyen_nhanh_cau_hoi"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav1"
+                style="@style/ButtonNavigation"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/btnQuestionNav2"
+                style="@style/ButtonNavigation"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/btnQuestionNav3"
+                style="@style/ButtonNavigation"
+                android:text="3" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav4"
+
+                style="@style/ButtonNavigation"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/btnQuestionNav5"
+
+                style="@style/ButtonNavigation"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/btnQuestionNav6"
+
+                style="@style/ButtonNavigation"
+                android:text="6" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav7"
+
+                style="@style/ButtonNavigation"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/btnQuestionNav8"
+
+                style="@style/ButtonNavigation"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/btnQuestionNav9"
+
+                style="@style/ButtonNavigation"
+                android:text="9" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav10"
+
+                style="@style/ButtonNavigation"
+                android:text="10" />
+
+            <Button
+                android:id="@+id/btnQuestionNav11"
+
+                style="@style/ButtonNavigation"
+                android:text="11" />
+
+            <Button
+                android:id="@+id/btnQuestionNav12"
+
+                style="@style/ButtonNavigation"
+                android:text="12" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav13"
+
+                style="@style/ButtonNavigation"
+                android:text="13" />
+
+            <Button
+                android:id="@+id/btnQuestionNav14"
+
+                style="@style/ButtonNavigation"
+                android:text="14" />
+
+            <Button
+                android:id="@+id/btnQuestionNav15"
+
+                style="@style/ButtonNavigation"
+                android:text="15" />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav16"
+
+                style="@style/ButtonNavigation"
+                android:text="16" />
+
+            <Button
+                android:id="@+id/btnQuestionNav17"
+
+                style="@style/ButtonNavigation"
+                android:text="17" />
+
+            <Button
+                android:id="@+id/btnQuestionNav18"
+
+                style="@style/ButtonNavigation"
+                android:text="18" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav19"
+
+                style="@style/ButtonNavigation"
+                android:text="19" />
+
+            <Button
+                android:id="@+id/btnQuestionNav20"
+
+                style="@style/ButtonNavigation"
+                android:text="20" />
+
+            <Button
+                android:id="@+id/btnQuestionNav21"
+
+                style="@style/ButtonNavigation"
+                android:text="21" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav22"
+
+                style="@style/ButtonNavigation"
+                android:text="22" />
+
+            <Button
+                android:id="@+id/btnQuestionNav23"
+
+                style="@style/ButtonNavigation"
+                android:text="23" />
+
+            <Button
+                android:id="@+id/btnQuestionNav24"
+
+                style="@style/ButtonNavigation"
+                android:text="24" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav25"
+
+                style="@style/ButtonNavigation"
+                android:text="25" />
+
+            <Button
+                android:id="@+id/btnQuestionNav26"
+
+                style="@style/ButtonNavigation"
+                android:text="26" />
+
+            <Button
+                android:id="@+id/btnQuestionNav27"
+
+                style="@style/ButtonNavigation"
+                android:text="27" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnQuestionNav28"
+
+                style="@style/ButtonNavigation"
+                android:text="28" />
+
+            <Button
+                android:id="@+id/btnQuestionNav29"
+
+                style="@style/ButtonNavigation"
+                android:text="29" />
+
+            <Button
+                android:id="@+id/btnQuestionNav30"
+
+                style="@style/ButtonNavigation"
+                android:text="30" />
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/ketthuc"
+            style="@style/ButtonNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp"
+            android:background="@color/colorAccent"
+            android:text="Kết thúc"
+            android:textAllCaps="false" />
+
+    </TableLayout>
+
+
+</LinearLayout>
